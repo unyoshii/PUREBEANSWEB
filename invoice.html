@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice - PureBeans</title>
+    <link rel="stylesheet" href="invoice.css">
+    <script defer src="Invoice.js"></script>
+    <link rel="icon" href="AN-IMAGES/coffee-bean.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Invoice Section -->
+    <section class="invoice-section">
+        <h2>Invoice</h2>
+        <div class="invoice-details">
+            <!-- Customer Information -->
+            <div class="customer-info">
+                <h3>Customer Information</h3>
+                <p>Name: <span id="customer-name">Oshane Smith</span></p>
+                <p>Email: <span id="customer-email">oshanesmith55@gmail.com</span></p>
+            </div>
+            
+            <!-- Order Details -->
+            <div class="order-info">
+                <h3>Order Details</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price ($)</th>
+                            <th>Quantity</th>
+                            <th>Total ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="order-items">
+                        <!-- Order items will be injected here -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Charges Information -->
+            <div class="charges-info">
+                <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                <p>Taxes (10%): $<span id="taxes">0.00</span></p>
+                <p>Discount (5%): -$<span id="discount">0.00</span></p>
+                <hr>
+                <p><strong>Total: $<span id="total">0.00</span></strong></p>
+            </div>
+        </div>
+        
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button id="purchase-button" class="purchase-button">Purchase</button>
+            <button id="cancel-exit-button" class="cancel-exit-button">Cancel & Exit</button>
+        </div>
+        
+        <!-- Print Button -->
+        <button id="print-button" class="print-button">Print Invoice</button>
+    </section>
+    
+    <!-- Footer (Optional) -->
+    <!--
+    <footer>
+        <p>&copy; 2024 PureBeans. All rights reserved.</p>
+    </footer>
+    -->
+</body>
+</html>
+

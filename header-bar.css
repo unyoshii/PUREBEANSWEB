@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap');
+
+.navigation-bar
+{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar-logo
+{
+    
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    padding: 0px 0px 0px 15px;
+}
+.navigation-bar-logo p
+{
+    font-family: Bebas Neue, Arial;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 60px;
+}
+.navigation-bar-logo img
+{
+    height: 30px;
+    align-self: center;
+    margin: 0px 0px 0px 10px;
+}
+.navigation-bar-navigation
+{
+    
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.navigation-bar-navigation ul
+{
+    list-style: none;
+    float: left;
+}
+.navigation-bar-navigation ul li
+{
+    display: inline;
+    margin-left: 10px;
+}
+.navigation-bar-navigation ul li a
+{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 60px;
+    transition: color 0.6s ease, transform 0.6s ease;
+}
+.navigation-bar-navigation ul li a:hover
+{
+    transform: scale(1.1,1.1);
+}
+
+.navigation-bar-socials
+{
+    
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 0px;
+
+    
+}
+.navigation-bar-socials img
+{
+    height: 20px;
+    margin-left: 10px;
+}

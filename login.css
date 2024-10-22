@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap');
+
+
+.main-div 
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 60px;
+}
+
+
+.main-div-wlc-mssg 
+{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-div-wlc-mssg h1 
+{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.main-div-wlc-mssg p 
+{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 5px;
+}
+
+
+.login-box 
+{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box-login 
+{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 380px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.login-box-login-header 
+{
+    height: 40px;
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box-login-header h1 
+{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.login-box-login-username,
+.login-box-login-password 
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.login-box-login-username input,
+.login-box-login-password input 
+{
+    height: 40px;
+    width: 300px;
+    padding: 0px 0px 0px 15px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.login-box-login-username input:focus,
+.login-box-login-password input:focus 
+{
+    background: rgba(0, 0, 255, 0.1); 
+    border: 2px solid blue;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3); 
+    outline: none; 
+}
+
+.login-box-login-username img,
+.login-box-login-password img 
+{
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+}
+
+
+.login-box-login-checkbox 
+{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.login-box-login-checkbox p 
+{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 200;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+
+.login-box-login-bttn 
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box-login-bttn button 
+{
+    height: 40px;
+    width: 300px;
+    padding: 0px 0px 0px 10px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #1e1e1e;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+
+/* Logo */
+.login-box-login-logo 
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box-login-logo img 
+{
+    height: 40px;
+}
+
+
+@media (max-width: 800px) 
+{
+    
+    .main-div-wlc-mssg 
+    {
+        display: none;
+    }
+
+    .main-div 
+    {
+        height: 80vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0; 
+    }
+
+    .login-box 
+    {
+        height: auto; 
+        width: 90%; 
+    }
+}
+
